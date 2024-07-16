@@ -1,0 +1,61 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+html, body{
+    margin: 0px;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+
+.bart{
+
+    height:500px;
+    background-color: skyblue;
+    padding: 20px;
+    width:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 20px solid white;
+    border: 2px solid black;
+    margin-right: 50px;
+    
+}
+
+.bart input{
+    height: 30px;   
+    width: 300px;
+    margin: 10px;
+    margin-left : 0px;
+}
+
+#homer{
+    height:500px;
+    padding: 20px;
+    width: 500px;
+    background-color: goldenrod;
+    overflow-y: scroll;
+    border: 2px solid black;
+    
+}
+
+.task-item{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid grey;
+    padding:10px;
+    margin:10px;
+}
